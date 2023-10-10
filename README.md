@@ -1,6 +1,6 @@
 # hssm_templates
 
-Template code for running hierarchical regressions in hssm (https://lnccbrown.github.io/HSSM/). 
+Template code for running hierarchical regressions in hssm (https://lnccbrown.github.io/HSSM/). Developed with generous help from Alexander Fengler (http://alexanderfengler.github.io/about/) 
 
 This code sets priors and starting points (for the sampler) and runs an example model of the cavanagh dataset (included in the hssm package).
 
