@@ -26,5 +26,7 @@ pip install jaxlib==0.4.1 jax==0.4.1
 
 - Add instructions on how to run on GPU 
 
+- Add an example with the slice sampler and the old HDDM likelihood
+
 
  
