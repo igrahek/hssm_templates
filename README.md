@@ -4,6 +4,17 @@ Template code for running hierarchical regressions in hssm (https://lnccbrown.gi
 
 This code sets priors and starting points (for the sampler) and runs an example model of the cavanagh dataset (included in the hssm package).
 
+## Contents
+
+**DDM_LAN_Likelhood**
+    - Fits a DDM using the LAN likelihood and nuts_numpyro sampler
+
+**DDM_HSSM_Likelhood_SliceSampler**
+    - Fits a DDM using the customized likelihood (from the HDDM package) and a slice sampler
+    - This should be the same as using HDDM (not confirmed yet)
+
+## Issues
+
 Current hssm installation issues (10/10/23):
 - numpy needs to be downgraded
 - jax & jaxlib need to be downgraded
@@ -26,7 +37,6 @@ pip install jaxlib==0.4.1 jax==0.4.1
 
 - Add instructions on how to run on GPU 
 
-- Add an example with the slice sampler and the old HDDM likelihood
 
 
  
