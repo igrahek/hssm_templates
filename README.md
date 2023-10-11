@@ -6,11 +6,11 @@ This code sets priors and starting points (for the sampler) and runs an example 
 
 ## Contents
 
-**DDM_LAN_Likelhood**
+**DDM_LAN_Likelhood_NutsSampler.ipynb**
     - Fits a DDM using the LAN likelihood and nuts_numpyro sampler
 
-**DDM_HSSM_Likelhood_SliceSampler**
-    - Fits a DDM using the customized likelihood (from the HDDM package) and a slice sampler
+**DDM_Analytical_Likelihood_SliceSampler.ipynb**
+    - Fits a DDM using the analytical likelihood and a slice sampler
     - This should be the same as using HDDM (not confirmed yet)
 
 ## Issues
