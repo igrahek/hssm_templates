@@ -17,4 +17,14 @@ pip install numpy==1.25.0
 pip install jaxlib==0.4.1 jax==0.4.1
 ```
 
+## TO DO
+
+- Add code for analytical likelihood
+    - Add exp link function for threshold
+    - Add logit link function for bias
+    - Do inverses for the two parameters in the model object
+
+- Add instructions on how to run on GPU 
+
+
  
